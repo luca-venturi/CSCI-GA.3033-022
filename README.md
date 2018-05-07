@@ -29,5 +29,10 @@ The plot below reports the loss as a function of i.
 
 ![Loss](test2.png)
 
+For i < 3., the distance seems to be meaningful. For i >= 3., the supports almost do not overlap - this results in a distance which does not see any difference for different values of mu_i >= 3.
+
 ### Conclusion
 
+The GAN standard discriminator loss evaluated on a sub-optimal discriminator defined a meaningful distance as long as the supports have some overlapping; over that point, it is not able to recognize between different distributions.
+Unfortunately I ran out of time and I did not have chances to run more numerical tests.
+This will be object of future investigations.
