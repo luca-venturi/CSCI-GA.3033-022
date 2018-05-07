@@ -19,6 +19,8 @@ The plot below reports the loss as a function of i.
 
 ![Loss](test1.png)
 
+Here i belongs to {0.,0.1,...,0.9,1.}
+
 ### Test 2
 
 In this case P is taken to be a d-dimensional standard Gaussian distribution projected on the vector e_1.
