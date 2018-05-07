@@ -33,6 +33,7 @@ For i < 3., the distance seems to be meaningful. For i >= 3., the supports almos
 
 ### Conclusion
 
-The GAN standard discriminator loss evaluated on a sub-optimal discriminator defined a meaningful distance as long as the supports have some overlapping; over that point, it is not able to recognize between different distributions.
+The GAN standard discriminator loss evaluated on a sub-optimal discriminator defines a meaningful distance as long as the supports have some overlapping; over that point, it is not able to recognize between different distributions.
+
 Unfortunately I ran out of time and I did not have chances to run more numerical tests.
 This will be object of future investigations.
